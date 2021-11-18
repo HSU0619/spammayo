@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
         ToggleButton toggleButton2 = (ToggleButton) findViewById(R.id.toggleButton2);
         toggleButton2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -68,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
             adapter.addItem(new ListItem("spammoyo", "공지사항7", R.drawable.icon));
             listView.setAdapter(adapter);
         }
+
+
         class ListAdapter extends BaseAdapter {
             ArrayList<ListItem> items = new ArrayList<ListItem>();
 

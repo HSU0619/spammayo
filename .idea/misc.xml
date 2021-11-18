@@ -3,15 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/drawable/radius.xml" value="0.13240740740740742" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/activity_loading.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/activity_loading2.xml" value="0.11822916666666666" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/listview.xml" value="0.1" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/listview_btn.xml" value="0.1" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/listview_item.xml" value="0.536" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/second_activity.xml" value="0.2" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/third_activity.xml" value="0.4" />
+        <entry key="..\:/Users/InGyu/Desktop/tmp/spammayo/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
