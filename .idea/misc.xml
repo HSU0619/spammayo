@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/InGyu/Desktop/tmp/spammayo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/drawable/radius.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/font/font.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/activity_loading.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/listview_item.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/second_activity.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/spammayo/app/src/main/res/layout/third_activity.xml" value="0.182518115942029" />
       </map>
     </option>
   </component>

@@ -10,25 +10,25 @@
 
     <ToggleButton
         android:id="@+id/toggleButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="96dp"
         android:background="@drawable/radius"
         android:checked="true"
-        android:textOff="감시 시스템 OFF"
-        android:textOn="감시 시스템 ON" />
+        android:textOff="감시 시스템 \nOFF"
+        android:textOn="감시 시스템 \nON" />
 
     <ToggleButton
         android:id="@+id/toggleButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginTop="64dp"
         android:background="@drawable/radius"
         android:checked="true"
-        android:textOff="출처를 알 수 없는 앱 설치 허용"
-        android:textOn="출처를 알 수 없는 앱 설치 제한" />
+        android:textOff="출처를 알 수 없는 \n앱 설치 허용"
+        android:textOn="출처를 알 수 없는 \n앱 설치 제한" />
 
     <LinearLayout
         android:layout_width="400dp"

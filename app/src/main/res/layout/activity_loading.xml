@@ -9,7 +9,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading"
+        android:fontFamily="@font/spammayo"
+        android:text="스팸마요"
         android:textSize="46sp"
         android:textStyle="bold"
         android:textColor="@color/black"

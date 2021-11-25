@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -27,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
         toggleButton1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
-                    Toast.makeText(getApplicationContext(), "감시 시스템이 활성화되었습니다", Toast.LENGTH_SHORT).show();
+                    Toast t1 = Toast.makeText(getApplicationContext(), "감시 시스템이 활성화되었습니다", Toast.LENGTH_SHORT);
+                    t1.setGravity(Gravity.TOP,0,0);
+                    t1.show();
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "감시 시스템이 비활성화되었습니다", Toast.LENGTH_SHORT).show();
+                    Toast t2 = Toast.makeText(getApplicationContext(), "감시 시스템이 비활성화되었습니다", Toast.LENGTH_SHORT);
+                    t2.setGravity(Gravity.TOP,0,0);
+                    t2.show();
 
                 }
             }
@@ -41,10 +46,14 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
 
-                    Toast.makeText(getApplicationContext(), "출처를 알 수 없는 앱 설치가 제한되었습니다", Toast.LENGTH_SHORT).show();
+                    Toast t3 = Toast.makeText(getApplicationContext(), "출처를 알 수 없는 앱 설치가 제한되었습니다", Toast.LENGTH_SHORT);
+                    t3.setGravity(Gravity.CENTER,50,100);
+                    t3.show();
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "출처를 알 수 없는 앱 설치가 허용되었습니다", Toast.LENGTH_SHORT).show();
+                    Toast t4 = Toast.makeText(getApplicationContext(), "출처를 알 수 없는 앱 설치가 허용되었습니다", Toast.LENGTH_SHORT);
+                    t4.setGravity(Gravity.CENTER,50,100);
+                    t4.show();
 
                 }
             }
